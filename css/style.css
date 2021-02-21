@@ -11,15 +11,68 @@
 *	Edit this section
 *
 * ======================================================= */
+.pop {
+  display: inline-block; 
+  position: relative;
+  margin-right: 15%; 
+  margin-left: 10%;
+  padding: 10px; 
+  vertical-align: top
+}
+.myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  /* background: rgba(0, 0, 0, 0.5); */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+.myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card-body {
+  background-color: rgba(35, 46, 56, 0.596);
+}
+
+.myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   line-height: 1.6;
   font-size: 16px;
-  background: #121212;
+  background-color: rgb(66, 82, 110);
   color: #848484;
   font-weight: 300;
   overflow-x: hidden;
 }
+
+body.fh5co-hero {
+  background-image: url("images/lagoon.pdf");
+}
+
+body.fh5co-listing {
+  background-image: url("images/lagoon.pdf");
+}
+
 body.fh5co-offcanvas {
   overflow: hidden;
 }
@@ -87,7 +140,7 @@ figure {
 }
 .fh5co-cover.fh5co-hero-2,
 .fh5co-hero.fh5co-hero-2 {
-  height: 600px;
+  height: 2000px;
 }
 .fh5co-cover.fh5co-hero-2 .fh5co-overlay,
 .fh5co-hero.fh5co-hero-2 .fh5co-overlay {
@@ -680,7 +733,9 @@ figure {
   margin-bottom: 30px;
 }
 #fh5co-contact .btn {
-  background: #83CC61;
+  padding: 1em 3em;
+  opacity: .9;
+  background: #FFBE7B !important;
 }
 
 #map {
@@ -1037,5 +1092,6 @@ figure {
   background: url(../images/hourglass.svg) center no-repeat #222222;
 }
 
-/*# sourceMappingURL=style.css.map */
 
+
+/*# sourceMappingURL=style.css.map */
