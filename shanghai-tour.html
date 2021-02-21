@@ -2,8 +2,11 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Safe Escape - Shanghai, China</title>
@@ -12,7 +15,7 @@
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
 
-  <!-- 
+	<!-- 
 	//////////////////////////////////////////////////////
 
 	FREE HTML5 TEMPLATE 
@@ -26,12 +29,12 @@
 	//////////////////////////////////////////////////////
 	 -->
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
 	<meta name="twitter:title" content="" />
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
@@ -41,7 +44,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'> -->
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -57,21 +60,23 @@
 
 
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/modernizr-2.6.2.min.js">
+	</script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	</head>
-	<body>
-		<div id="fh5co-wrapper">
+</head>
+
+<body>
+	<div id="fh5co-wrapper">
 		<div id="fh5co-page">
-		<div id="fh5co-header">
-			<header id="fh5co-header-section">
-				<div class="container">
-					<div class="nav-header">
-						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+			<div id="fh5co-header">
+				<header id="fh5co-header-section">
+					<div class="container">
+						<div class="nav-header">
+							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 						<a href="index.html"><img src="images/logo.png" alt = "logo" height = "75px"></a>
 						<!-- START #fh5co-menu-wrap -->
 						<nav id="fh5co-menu-wrap" role="navigation">
@@ -91,7 +96,7 @@
 										<li><a href="mexico.html">Mexico City, Mexico</a></li>
                     <li><a href="shanghai.html">Shanghai, China</a></li>
 									</ul>
-								<li><a href="contact.html">About Us</a></li>
+								<li><a href="contact.html">Contact Us</a></li>
 							</ul>
               <ul></ul>
 						</nav>
@@ -111,24 +116,16 @@
 		</div>
 
   </div>
-    
-    <div class="content">
-      
-      
-      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    Learn More
-      </button>
-      
-    
 
-    <div class="collapse" id="collapseExample">
-      <div class="card">
-      <div class="card-header">
-         </div>
-        <div class="card-img-top">  
-      
-      </div>
-      <div class="card-body">
+  <div class="content">
+  <p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Learn More</a>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Music</button>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
         <ul>
             <li class="pop"> 
               <h3>Shanghai, China</h3>
@@ -137,22 +134,23 @@
             </li>
             <li class="pop">
               <h3>Cultural Fact</h3>
-              <h4>Shanghai is a world finance and cultural center. </br> In the last two decades, China has experience a high increase in </br> finance and has been considered as the center for many international companies.
+              <h4>Shanghai is a world finance and cultural center. </br> In the last two decades, China has experience <br/> a high increase in finance  </br> and has been considered as the center  </br> for many international companies.
               </h4>
             </li>
             
         </ul>
-        
-        
-      </div>
       </div>
     </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        <iframe src="https://open.spotify.com/embed/playlist/6RpYSZTAO4ZiufvCVJXwdf" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      </div>
     </div>
-
-    
-
-  <!-- Optional: some overlay text to describe the video -->
-
+  </div>
+</div>
+</div>
 
 
 	<!-- jQuery -->
@@ -176,4 +174,3 @@
 
 	</body>
 </html>
-
